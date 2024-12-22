@@ -1,0 +1,2 @@
+Author: Belousov Grigory
+Programming language: Python
