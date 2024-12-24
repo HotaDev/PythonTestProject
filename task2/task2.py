@@ -3,12 +3,12 @@ import os
 
 dir = os.path.dirname(sys.argv[0])
 
-f = open(os.path.join(dir, input('Введите название файла с данными окружности ')))
+f = open(os.path.join(dir, sys.argv[1]))
 center = f.readline().split(' ')
 r = int(f.readline())
 f.close()
 dot = []
-f = open(os.path.join(dir, input('Введите название файла с точками ')))
+f = open(os.path.join(dir, sys.argv[2]))
 for line in f:
     dot = dot + line.split(' ')   
 f.close() 

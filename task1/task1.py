@@ -1,5 +1,7 @@
-n = int(input("Введите длину массива "))
-m = int(input("Введите интервал хода "))
+import sys
+
+n = int(sys.argv[1])
+m = int(sys.argv[2])
 way = '1'
 currPath = 1
 while 1:
